@@ -121,7 +121,11 @@ namespace Program
                 Console.WriteLine(e.Message);
             }
 
-
+            // ProblemTwo
+            int year;
+            Console.WriteLine("Enter a year:");
+            year = int.Parse(Console.ReadLine());
+            Console.WriteLine(ProblemTwo(year));
 
         }
     }
