@@ -141,7 +141,13 @@ namespace Program
             Console.WriteLine(ProblemThree(arrTest));
 
 
-           
+            // ProblemFour
+            int[,] myArray = new int[3, 5] { { 1, 2, 3, 4, 5 }, { 6, 7, 8, 9, 10 }, { 11, 12, 13, 14, 15 } };
+            int[] returnArr = ProblemFour(myArray, 3, 5);
+            for (int i = 0; i < returnArr.Length; i++)
+            {
+                Console.Write(returnArr[i] + " ");
+            }
 
         }
     }
